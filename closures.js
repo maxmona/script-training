@@ -18,11 +18,16 @@ function Employee (firstName, lastName, basicSalary){
         this.totalSalary=this.basicSalary+this.hra+this.da+this.ta;
         return this.totalSalary;
     }
-    this.toString=()=>this.firstName+" "+this.lastName+" "+this.basicSalary+" "+this.hra+" "+this.hra+" "+this.da+" "+this.ta+" "+this.totalSalary;
+    this.toString=()=>"Name - "+this.firstName+" "+this.lastName+", Basic - "+this.basicSalary+", HRA - "+this.hra+", DA - "+this.da+", TA - "+this.ta+", Total Salary - "+this.totalSalary;
 }
+
+Employee.prototype.email="irfan.shaheed@fdf.com";
+Employee.prototype.getName = function() {   return this.firstName + " " + this.lastName};
 
 var employee1= new Employee("Mona","S",8100);
 var employee2= new Employee("Max","P",8000);
 
-console.log(employee1.calculateTotalSalary());
-console.log(employee2.calculateTotalSalary());
+employee1.calculateTotalSalary()
+employee2.calculateTotalSalary()
+console.log("Employee 1 - "+employee1.toString()+" Email = "+employee1.email +" Full Name = "+employee1.getName());
+console.log("Employee 2 - "+employee2.toString()+" Email = "+employee2.email +" Full Name = "+employee2.getName());
