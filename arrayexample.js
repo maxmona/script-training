@@ -13,6 +13,11 @@ for (let a in numList){
     console.log(numList[a])
     }
 //for each loop    
+// impt- Fat arrow function is being used here.
+// we are passing whole function to forEach.
 numList.forEach(element=>{
     console.log(element)
     });
+
+//for each for single line of code 
+numList.forEach(element=>console.log(element));
