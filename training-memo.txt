@@ -19,4 +19,29 @@ write function() in a js file using Visual studio code
 right click on file- run
 to run - node <filename.js>
 
+for each and for in loop are different.
+
+for (a in numList){
+console.log(a)
+}
+
+numList.forEach(element){
+console.log(element)
+}
+
+JS functions
+-----------------
+normal function
+function as js variable
+FAT arrow function
+Fat arrow in single line
+
+fat arrow example
+
+var calIntrest2=(baseAmt,interestrate)=>{
+    return (baseAmt*interestrate)/100;
+}
+
+
+
 
