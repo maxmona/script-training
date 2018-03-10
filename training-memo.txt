@@ -7,7 +7,7 @@ Angular 2.0
 
 Tools-
 visual studio code
-node.js
+node.js (install it before doing anything :P) version 9+
 MDM tool (sandbox)
 
 
@@ -41,6 +41,22 @@ fat arrow example
 var calIntrest2=(baseAmt,interestrate)=>{
     return (baseAmt*interestrate)/100;
 }
+
+
+closures
+
+Prototype
+
+Inheritence
+
+
+appdata/node
+to used to downlod plugins for angular/bootstrap/ts server etc
+
+in cmd,
+
+1. to install type script - > nps install -g typescript
+2. to install angulat cli - > npm install -g @angular/cli
 
 
 
