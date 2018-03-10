@@ -6,7 +6,7 @@ Angular 2.0
 
 
 Tools-
-visual studio code
+visual studio code (free)
 node.js (install it before doing anything :P) version 9+
 MDM tool (sandbox)
 
@@ -56,8 +56,27 @@ to used to downlod plugins for angular/bootstrap/ts server etc
 in cmd,
 
 1. to install type script - > nps install -g typescript
-2. to install angulat cli - > npm install -g @angular/cli
+2. to install angulat cli - > npm install -g @angular/cli    check - ng -v
+
+https://github.com/angular/quickstart
+
+to create basic project structure use below 
+ng new <ApplicationName>
 
 
 
+angular2 - componenet based architecture
 
+
+package.json file -- to configure related to angular application only.. not your application
+angular-cli.json--
+tsconfig.json---
+
+
+npm start,
+npt server -o
+
+
+https://github.com/satishmahajan11
+
+https://github.com/satishmahajan11/JunitMokitoRepo
