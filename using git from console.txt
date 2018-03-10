@@ -1,0 +1,8 @@
+create repos in git hub
+then
+1. first create folder in desktop and "git init"
+2. "git remote add origin <HITHUB URL OF UR REPOS>"
+3. "Git pull origin master"
+3. "git add <file  name>/*.*
+4. "git commit -m "<commit comment>"
+5. "git push origin master"

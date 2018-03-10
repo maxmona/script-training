@@ -1,0 +1,22 @@
+Trainig on - 
+
+Javascript
+TypeScript
+Angular 2.0
+
+
+Tools-
+visual studio code
+node.js
+MDM tool (sandbox)
+
+
+Websocket
+
+
+write function() in a js file using Visual studio code 
+
+right click on file- run
+to run - node <filename.js>
+
+
